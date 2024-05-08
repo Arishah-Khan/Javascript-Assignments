@@ -1,343 +1,347 @@
-// 1. Write a program that take two numbers & add them in a
-// new variable. Show the result in your browser.
+// // 1. Write a program that take two numbers & add them in a
+// // new variable. Show the result in your browser.
 
-var num1 = 3;
+// var num1 = 3;
 
-var num2 = 5;
+// var num2 = 5;
 
-var resultAdd = num1 + num2;
+// var resultAdd = num1 + num2;
 
-document.write(`Sum of ${num1} and ${num2} is ${resultAdd}.`);
+// document.write(`Sum of ${num1} and ${num2} is ${resultAdd}.`);
 
-// 2. Repeat task1 for subtraction, multiplication, division &
-// modulus.
+// // 2. Repeat task1 for subtraction, multiplication, division &
+// // modulus.
 
-// Subtraction: 
+// // Subtraction: 
 
-var resultSub = num1 - num2;
+// var resultSub = num1 - num2;
 
-document.write(`Subtraction of ${num1} and ${num2} is ${resultSub}.`);
+// document.write(`Subtraction of ${num1} and ${num2} is ${resultSub}.`);
 
-// Multiplication:
+// // Multiplication:
 
-var resultMul = num1 - num2;
+// var resultMul = num1 - num2;
 
-document.write(`Multiplication of ${num1} and ${num2} is ${resultMul}.`);
+// document.write(`Multiplication of ${num1} and ${num2} is ${resultMul}.`);
 
-// Division:
+// // Division:
 
-var resultDiv = num1 - num2;
+// var resultDiv = num1 - num2;
 
-document.write(`Division of ${num1} and ${num2} is ${resultDiv}.`);
+// document.write(`Division of ${num1} and ${num2} is ${resultDiv}.`);
 
-// Modulus:
+// // Modulus:
 
-var resultMod = num1 - num2;
+// var resultMod = num1 - num2;
 
-document.write(`Modulus of ${num1} and ${num2} is ${resultMod}.`);
+// document.write(`Modulus of ${num1} and ${num2} is ${resultMod}.`);
 
-// 3. Do the following using JS Mathematic Expressions
-// a. Declare a variable.
-// b. Show the value of variable in your browser like “Value
-// after variable declaration is: ??”.
-// c. Initialize the variable with some number.
-// d. Show the value of variable in your browser like “Initial
-// value: 5”.
-// e. Increment the variable.
-// f. Show the value of variable in your browser like “Value
-// after increment is: 6”.
-// g. Add 7 to the variable.
-// h. Show the value of variable in your browser like “Value
-// after addition is: 13”.
-// i. Decrement the variable.
-// j. Show the value of variable in your browser like “Value
-// after decrement is: 12”.
-// k. Show the remainder after dividing the variable’s value
-// by 3.
-// l. Output : “The remainder is : 0”.
+// // 3. Do the following using JS Mathematic Expressions
+// // a. Declare a variable.
+// // b. Show the value of variable in your browser like “Value
+// // after variable declaration is: ??”.
+// // c. Initialize the variable with some number.
+// // d. Show the value of variable in your browser like “Initial
+// // value: 5”.
+// // e. Increment the variable.
+// // f. Show the value of variable in your browser like “Value
+// // after increment is: 6”.
+// // g. Add 7 to the variable.
+// // h. Show the value of variable in your browser like “Value
+// // after addition is: 13”.
+// // i. Decrement the variable.
+// // j. Show the value of variable in your browser like “Value
+// // after decrement is: 12”.
+// // k. Show the remainder after dividing the variable’s value
+// // by 3.
+// // l. Output : “The remainder is : 0”.
 
-var num ;
+// var num ;
 
 
-document.write("Value after variable declaration is: " + num + "<br>");
+// document.write("Value after variable declaration is: " + num + "<br>");
 
 
-num = 5;
+// num = 5;
 
-document.write("Initial value: " + num + "<br>");
+// document.write("Initial value: " + num + "<br>");
 
 
-num++;
+// num++;
 
 
-document.write("Value after increment is: " + num + "<br>");
+// document.write("Value after increment is: " + num + "<br>");
 
-num += 7;
+// num += 7;
 
-document.write("Value after addition is: " + num + "<br>");
+// document.write("Value after addition is: " + num + "<br>");
 
-num--;
+// num--;
 
-document.write("Value after decrement is: " + num + "<br>");
+// document.write("Value after decrement is: " + num + "<br>");
 
-var remainder = num % 3;
+// var remainder = num % 3;
 
-document.write("The remainder is: " + remainder + "<br>");
+// document.write("The remainder is: " + remainder + "<br>");
 
-// 4. Cost of one movie ticket is 600 PKR. Write a script to
-// store
-// ticket price in a variable & calculate the cost of buying 5
-// tickets
-// to a movie. Example output:
+// // 4. Cost of one movie ticket is 600 PKR. Write a script to
+// // store
+// // ticket price in a variable & calculate the cost of buying 5
+// // tickets
+// // to a movie. Example output:
 
-var ticketPrice = 600;
+// var ticketPrice = 600;
 
-var totalCost = ticketPrice * 5;
+// var totalCost = ticketPrice * 5;
 
-document.write("Total cost to buy 5 tickets to a movie is " + totalCost + "PKR");
+// document.write("Total cost to buy 5 tickets to a movie is " + totalCost + "PKR");
 
-// 5. Write a script to display multiplication table of any
-// number in your browser. 
+// // 5. Write a script to display multiplication table of any
+// // number in your browser. 
 
+// var table4 = 4;
 
-document.write("Table Of 4");
+// var num1To10 = 1;
 
-document.write("<br>");
+// document.write("<br>")
 
-document.write("4 x 1 = 4");
+// document.write("Table of " + table4 + "<br>");
 
-document.write("<br>");
+// document.write(table4 + " x " + num1To10 + " = " + table4*num1To10 + "<br>");
 
-document.write("4 x 2 = 8");
+// num1To10 = ++num1To10;
 
-document.write("<br>");
+// document.write(table4 + " x " + num1To10 + " = " + table4*num1To10  + "<br>");
 
-document.write("4 x 3 = 12");
+// num1To10 = ++num1To10;
 
-document.write("<br>");
+// document.write(table4 + " x " + num1To10 + " = " + table4*num1To10 + "<br>");
 
-document.write("4 x 4 = 16");
+// num1To10 = ++num1To10;
 
-document.write("<br>");
+// document.write(table4 + " x " + num1To10 + " = " + table4*num1To10 + "<br>");
 
-document.write("4 x 5 = 20");
+// num1To10 = ++num1To10;
 
-document.write("<br>");
+// document.write(table4 + " x " + num1To10 + " = " + table4*num1To10 + "<br>");
 
-document.write("4 x 6 = 24");
+// num1To10 = ++num1To10;
 
-document.write("<br>");
+// document.write(table4 + " x " + num1To10 + " = " + table4*num1To10 + "<br>");
 
-document.write("4 x 7 = 28");
+// num1To10 = ++num1To10;
 
-document.write("<br>");
+// document.write(table4 + " x " + num1To10 + " = " + table4*num1To10  + "<br>");
 
-document.write("4 x 8 = 32");
+// num1To10 = ++num1To10;
 
-document.write("<br>");
+// document.write(table4 + " x " + num1To10 + " = " + table4*num1To10 + "<br>");
 
-document.write("4 x 9 = 36");
+// num1To10 = ++num1To10;
 
-document.write("<br>");
+// document.write(table4 + " x " + num1To10 + " = " + table4*num1To10 + "<br>");
 
-document.write("4 x 10 = 40");
+// num1To10 = ++num1To10;
 
-// 6. The Temperature Converter: It’s hot out! Let’s make a
-// converter based on the steps here.
-// a. Store a Celsius temperature into a variable.
-// b. Convert it to Fahrenheit & output “NNoC is NNoF”.
-// c. Now store a Fahrenheit temperature into a variable.
-// d. Convert it to Celsius & output “NNoF is NNoC”.
+// document.write(table4 + " x " + num1To10 + " = " + table4*num1To10 + "<br>");
 
-var celsiusTemp = 25;
+// // 6. The Temperature Converter: It’s hot out! Let’s make a
+// // converter based on the steps here.
+// // a. Store a Celsius temperature into a variable.
+// // b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+// // c. Now store a Fahrenheit temperature into a variable.
+// // d. Convert it to Celsius & output “NNoF is NNoC”.
 
-var fahrenheitTemp = (celsiusTemp * 9/5) + 32;
-console.log(celsiusTemp + "°C is " + fahrenheitTemp + "°F");
+// var celsiusTemp = 25;
 
-var fahrenheitTemp2 = 70;
+// var fahrenheitTemp = (celsiusTemp * 9/5) + 32;
+// console.log(celsiusTemp + "°C is " + fahrenheitTemp + "°F");
 
-var celsiusTemp2 = (fahrenheitTemp2 - 32) * 5/9;
-console.log(fahrenheitTemp2 + "°F is " + celsiusTemp2 + "°C");
+// var fahrenheitTemp2 = 70;
 
+// var celsiusTemp2 = (fahrenheitTemp2 - 32) * 5/9;
+// console.log(fahrenheitTemp2 + "°F is " + celsiusTemp2 + "°C");
 
-// 7. Write a program to implement checkout process of a
-// shopping cart system for an e-commerce website. Store
-// the following in variables
 
-// a. Price of item 1
-// b. Price of item 2
-// c. Ordered quantity of item 1
-// d. Ordered Quantity of item 2
-// e. Shipping charges
-// Compute the total cost & show the receipt in your browser.
+// // 7. Write a program to implement checkout process of a
+// // shopping cart system for an e-commerce website. Store
+// // the following in variables
 
-var priceOfItem1 = 650;
+// // a. Price of item 1
+// // b. Price of item 2
+// // c. Ordered quantity of item 1
+// // d. Ordered Quantity of item 2
+// // e. Shipping charges
+// // Compute the total cost & show the receipt in your browser.
 
-var priceOfItem2 = 100;
+// var priceOfItem1 = 650;
 
-var orderedQuantityOfItem1 = 3;
+// var priceOfItem2 = 100;
 
-var orderedQuantityOfItem2 = 7;
+// var orderedQuantityOfItem1 = 3;
 
-var shippingCharges = 100;
+// var orderedQuantityOfItem2 = 7;
 
-var totalCost = priceOfItem1 * orderedQuantityOfItem1 + priceOfItem2 * orderedQuantityOfItem2 + shippingCharges;
+// var shippingCharges = 100;
 
-document.write("<h1>Shopping Cart</h1>")
+// var totalCost = priceOfItem1 * orderedQuantityOfItem1 + priceOfItem2 * orderedQuantityOfItem2 + shippingCharges;
 
-document.write("Price of item 1 is " + priceOfItem1 + "<br>");
+// document.write("<h1>Shopping Cart</h1>")
 
-document.write("Price of item 2 is " + priceOfItem2 + "<br>");
+// document.write("Price of item 1 is " + priceOfItem1 + "<br>");
 
-document.write("Ordered quantity of item 1 is " + orderedQuantityOfItem1 + "<br>");
+// document.write("Price of item 2 is " + priceOfItem2 + "<br>");
 
-document.write("Ordered quantity of item 2 is " + orderedQuantityOfItem2 + "<br>");
+// document.write("Ordered quantity of item 1 is " + orderedQuantityOfItem1 + "<br>");
 
-document.write("Shipping charges " + shippingCharges + "<br>");
+// document.write("Ordered quantity of item 2 is " + orderedQuantityOfItem2 + "<br>");
 
-document.write("Total cost of your order is " + totalCost);
+// document.write("Shipping charges " + shippingCharges + "<br>");
 
-// 8. Store total marks & marks obtained by a student in 2
+// document.write("Total cost of your order is " + totalCost);
 
-// variables. Compute the percentage & show the result in
+// // 8. Store total marks & marks obtained by a student in 2
 
-// your browser
+// // variables. Compute the percentage & show the result in
 
-var totalMarks = 980;
+// // your browser
 
-var marksObtained = 804;
+// var totalMarks = 980;
 
-var percentage = (marksObtained / totalMarks) * 100;
+// var marksObtained = 804;
 
-document.write("<h1>Marks Sheet</h1>");
+// var percentage = (marksObtained / totalMarks) * 100;
 
+// document.write("<h1>Marks Sheet</h1>");
 
-document.write("Total marks: " + totalMarks + "<br>");
 
-document.write("Marks obtained: " + marksObtained + "<br>");
+// document.write("Total marks: " + totalMarks + "<br>");
 
-document.write("Percentage: " + percentage + "%");
+// document.write("Marks obtained: " + marksObtained + "<br>");
 
-// 9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a
-// script to convert the total currency to Pakistani Rupees.
-// Perform all calculations in a single expression.
-// (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee
-// and 1 Saudi Riyal = 28 Pakistani Rupee)
+// document.write("Percentage: " + percentage + "%");
 
+// // 9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a
+// // script to convert the total currency to Pakistani Rupees.
+// // Perform all calculations in a single expression.
+// // (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee
+// // and 1 Saudi Riyal = 28 Pakistani Rupee)
 
-document.write("<h1>Currency In PKR</h1>");
 
-var usDollar = 10;
+// document.write("<h1>Currency In PKR</h1>");
 
-var saudiRiyal = 25;
+// var usDollar = 10;
 
-var totalCurrency = (usDollar * 104.80) + (saudiRiyal * 28);
+// var saudiRiyal = 25;
 
-document.write("Total Currency in PKR: " + totalCurrency);
+// var totalCurrency = (usDollar * 104.80) + (saudiRiyal * 28);
 
+// document.write("Total Currency in PKR: " + totalCurrency);
 
-// 10. Write a program to initialize a variable with some
-// number and do arithmetic in following sequence:
-// a. Add 5
-// b. Multiply by 10
-// c. Divide the result by 2
-// Perform all calculations in a single expression
 
+// // 10. Write a program to initialize a variable with some
+// // number and do arithmetic in following sequence:
+// // a. Add 5
+// // b. Multiply by 10
+// // c. Divide the result by 2
+// // Perform all calculations in a single expression
 
-var num = 10;
 
-var numAdd = num + 5;
+// var num = 10;
 
-var numMul = numAdd * 10;
+// var numAdd = num + 5;
 
-var numDiv = numMul / 2;
+// var numMul = numAdd * 10;
 
-console.log(num + " + 5 = " + numAdd + "<br>");
+// var numDiv = numMul / 2;
 
-console.log(numAdd + " * 10 = " + numMul + "<br>");
+// console.log(num + " + 5 = " + numAdd + "<br>");
 
-console.log(numMul + " / 2 = " + numDiv);
+// console.log(numAdd + " * 10 = " + numMul + "<br>");
 
-// 11. The Age Calculator: Forgot how old someone is?
-// Calculate it!
-// a. Store the current year in a variable.
-// b. Store their birth year in a variable.
-// c. Calculate their 2 possible ages based on the stored
-// values.
-// Output them to the screen like so: “They are either NN or NN
-// years old”.
+// console.log(numMul + " / 2 = " + numDiv);
 
+// // 11. The Age Calculator: Forgot how old someone is?
+// // Calculate it!
+// // a. Store the current year in a variable.
+// // b. Store their birth year in a variable.
+// // c. Calculate their 2 possible ages based on the stored
+// // values.
+// // Output them to the screen like so: “They are either NN or NN
+// // years old”.
 
-document.write("<h1>Age Calculator</h1>")
 
-var currentYear = 2016;
+// document.write("<h1>Age Calculator</h1>")
 
-var birthYear = 1992;
+// var currentYear = 2016;
 
-var age1 = currentYear - birthYear;
+// var birthYear = 1992;
 
-document.write("Current Year: " + currentYear + "<br>");
+// var age1 = currentYear - birthYear;
 
-document.write("Birth Year: " + birthYear + "<br>");
+// document.write("Current Year: " + currentYear + "<br>");
 
-document.write("Your Age is: " + age1);
+// document.write("Birth Year: " + birthYear + "<br>");
 
-// 12. The Geometrizer: Calculate properties of a circle.
-// a. Store a radius into a variable 
-// b. Calculate the circumference based on the radius, and
-// output “The circumference is NN”.
-// (Hint : Circumference of a circle = 2 π r , π = 3.142)
-// Calculate the area based on the radius, and output “The
-// area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
+// document.write("Your Age is: " + age1);
 
-document.write("<h1>The Geometrizer</h1>");
 
-var radius = 20;
+// // 12. The Geometrizer: Calculate properties of a circle.
+// // a. Store a radius into a variable 
+// // b. Calculate the circumference based on the radius, and
+// // output “The circumference is NN”.
+// // (Hint : Circumference of a circle = 2 π r , π = 3.142)
+// // Calculate the area based on the radius, and output “The
+// // area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
 
-var circumference = 2 * 3.142 * radius;
+// document.write("<h1>The Geometrizer</h1>");
 
-var area = 3.142 * (radius * radius);
+// var radius = 20;
 
-document.write("Radius of a circle: " + radius + "<br>");
+// var circumference = 2 * 3.142 * radius;
 
-document.write("The circumference is: " + circumference + "<br>");
+// var area = 3.142 * (radius * radius);
 
-document.write("The area is: " + area);
+// document.write("Radius of a circle: " + radius + "<br>");
 
-// 13. The Lifetime Supply Calculator: Ever wonder how
-// much a “lifetime supply” of your favorite snack is?
-// Wonder no more.
-// a. Store your favorite snack into a variable
-// b. Store your current age into a variable.
-// c. Store a maximum age into a variable.
-// d. Store an estimated amount per day (as a number).
-// e. Calculate how many would you eat total for the rest of
-// your life.
-// Output the result to the screen like so: “You will need
-// NNNN to last you until the ripe old age of NN”.
+// document.write("The circumference is: " + circumference + "<br>");
 
+// document.write("The area is: " + area);
 
-document.write("<h1>The Lifetime Supply Calculator</h1>");
+// // 13. The Lifetime Supply Calculator: Ever wonder how
+// // much a “lifetime supply” of your favorite snack is?
+// // Wonder no more.
+// // a. Store your favorite snack into a variable
+// // b. Store your current age into a variable.
+// // c. Store a maximum age into a variable.
+// // d. Store an estimated amount per day (as a number).
+// // e. Calculate how many would you eat total for the rest of
+// // your life.
+// // Output the result to the screen like so: “You will need
+// // NNNN to last you until the ripe old age of NN”.
 
-var favSnack = "Chocolate Chip";
 
-var currentAge = 15;
+// document.write("<h1>The Lifetime Supply Calculator</h1>");
 
-var maxAge = 65;
+// var favSnack = "Chocolate Chip";
 
-var amountPerDay = 3;
+// var currentAge = 15;
 
-var totalAmount = (maxAge - currentAge) * 365 * amountPerDay;
+// var maxAge = 65;
 
-document.write("Favourite Snack: " + favSnack + "<br>");
+// var amountPerDay = 3;
 
-document.write("Current Age: " + currentAge + "<br>");
+// var totalAmount = (maxAge - currentAge) * 365 * amountPerDay;
 
-document.write("Estimated Maximum Age: " + maxAge + "<br>");
+// document.write("Favourite Snack: " + favSnack + "<br>");
 
-document.write("Amount per day: " + amountPerDay + "<br>");
+// document.write("Current Age: " + currentAge + "<br>");
 
-document.write("You will need " + totalAmount + " " + favSnack + " to last you until the ripe old age of " + maxAge);
+// document.write("Estimated Maximum Age: " + maxAge + "<br>");
+
+// document.write("Amount per day: " + amountPerDay + "<br>");
+
+// document.write("You will need " + totalAmount + " " + favSnack + " to last you until the ripe old age of " + maxAge);
 
 
 
