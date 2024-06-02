@@ -225,7 +225,22 @@
 
 // document.write("Fruits: " + fruits + "<br>");
 
-// fruits.reverse();
+// var a = fruits.pop();
+
+// document.write("Out: " + a + "<br>");
+
+// a = fruits.pop();
+
+// document.write("Out: " + a + "<br>");
+
+// a = fruits.pop();
+
+// document.write("Out: " + a + "<br>");
+
+// a = fruits.pop();
+
+// document.write("Out: " + a + "<br>");
+
 
 // document.write("Reverse Fruits: " + fruits + "<br>");
 
